@@ -1,0 +1,22 @@
+{
+  "name": "Buscapê",
+  "displayName": "Buscapê",
+  "expo": {
+    "name": "Buscape",
+    "slug": "Buscape",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "Buscape.apk"
+    }
+  },
+  "android": {
+    "package": "com.fag.buscape",
+    "versionCode": 1
+  }
+}
