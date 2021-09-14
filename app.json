@@ -13,6 +13,9 @@
     ],
     "android": {
       "package": "Buscape.apk"
+    },
+    "ios": {
+      "bundleIdentifier": "Buscape.apk"
     }
   },
   "android": {

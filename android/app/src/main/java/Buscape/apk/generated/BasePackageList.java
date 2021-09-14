@@ -1,4 +1,4 @@
-package com.buscape.generated;
+package Buscape.apk.generated;
 
 import java.util.Arrays;
 import java.util.List;

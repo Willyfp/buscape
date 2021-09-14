@@ -8,10 +8,12 @@ buildscript {
         targetSdkVersion = 29
     }
     repositories {
+        gradlePluginPortal()
         google()
         jcenter()
     }
     dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.10, 0.99.99]'
         classpath("com.android.tools.build:gradle:3.5.3")
         implementation platform('com.google.firebase:firebase-bom:26.3.0')
         implementation 'com.google.firebase:firebase-auth'
